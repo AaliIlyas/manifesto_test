@@ -24,55 +24,35 @@ After Line 5, you can view balance or withdraw again, to exit this account simpl
 
 Example:
 
+```
 -- New ATM --
 8000
 
 12345678 1234 1234
-
 500 100
-
 B
-
 > 500
-
 W 100
-
 > 400
 
-
 87654321 4321 4321
-
 100 0
-
 W 10
-
 > 90
 
-
 87654321 0 4321 (Accesses the same account as above, given pin is valid, third input)
-
 0 0
-
 W 10
-
 > 80
 
-
 10000000 123 123
-
 0 0
-
 W 10
-
 > FUNDS_ERR
-
 B
-
 > 0
 
-
 87654321 1111 1111 (Incorrect pin for the same account made earlier)
-
 0 0
-
 > ACCOUNT_ERR
+```
