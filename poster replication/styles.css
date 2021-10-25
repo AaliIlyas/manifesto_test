@@ -1,0 +1,62 @@
+.outer {
+    display: flex;
+    height: 100vh;
+}
+
+.outer-left {
+    background-color: #e9eae4;
+    width: 70vw;
+}
+
+.outer-right {
+    background-color: #030406;
+    width: 30vw;
+}
+
+.outer-left .blue {
+    background-color: #0957a1;
+}
+
+.outer-left .yellow {
+    background-color: #f5b91b;
+}
+
+.outer-left .red {
+    background-color: #810004;
+}
+
+.square {
+    width: 30%;
+    max-width: 150px;
+    float: right;
+    clear: right;
+    aspect-ratio: 1/1;
+}
+
+.name {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    font-size: large;
+}
+
+.details {
+    border-style: solid;
+    border-width: 1px 0px;
+    border-top: 0px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    width: 29vw;
+}
+
+.inner-details {
+    color: white;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
