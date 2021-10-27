@@ -7,7 +7,13 @@ namespace ATM_PROJ
         static void Main(string[] args)
         {
             var app = new App();
-            app.Start();
+            
+            if (args.Length != 0)
+            {
+                app.Start(args[0]);
+            }
+
+            app.Start("C:\\.Training\\manifesto\\ATM\\Inputs\\input1.txt");
         }
     }
 }
