@@ -13,7 +13,7 @@ namespace ATM_PROJ
                 app.Start(args[0]);
             }
 
-            app.Start("C:\\.Training\\manifesto\\ATM\\Inputs\\input1.txt");
+            app.Start("C:\\.Training\\manifesto\\ATM\\Inputs\\input2.txt");
         }
     }
 }
