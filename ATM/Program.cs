@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 
 namespace ATM_PROJ
 {
@@ -13,7 +14,8 @@ namespace ATM_PROJ
                 app.Start(args[0]);
             }
 
-            app.Start("C:\\.Training\\manifesto\\ATM\\Inputs\\input2.txt");
+            var path = Assembly.GetExecutingAssembly().Location;
+            app.Start(path + "..\\..\\..\\..\\..\\Inputs\\input2.txt");
         }
     }
 }
