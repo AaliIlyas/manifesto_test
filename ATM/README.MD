@@ -22,12 +22,6 @@ Line 5: Enter the option. B to view balance, W to withdraw.
 
 After Line 5, you can view balance or withdraw again, to exit this account simply press enter without typing anything. You should now be able to enter an account number again to access a another account.
 
-### Update: 27/10/2021
-I have also added the ability for it to read from txt files. You can modify the source in program.cs. `app.Start()` overload with no inputs will bring the console app. No pre-existing code was altered.
-
-### Update: 30/10/2021
-I have made the path to the txt files local so that it works on other machines and I have removed unused usings. No pre-existing code was altered.
-
 Example:
 
 ```
@@ -62,3 +56,10 @@ B
 0 0
 > ACCOUNT_ERR
 ```
+
+
+### Update: 27/10/2021
+I have also added the ability for it to read from txt files. You can modify the source in program.cs. `app.Start()` overload with no inputs will bring the console app. No pre-existing code was altered.
+
+### Update: 30/10/2021
+I have made the path to the txt files local so that it works on other machines and I have removed unused usings. No pre-existing code was altered.
