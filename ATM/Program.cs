@@ -8,14 +8,17 @@ namespace ATM_PROJ
         static void Main(string[] args)
         {
             var app = new App();
-            
+            var path = Assembly.GetExecutingAssembly().Location;
+
             if (args.Length != 0)
             {
-                app.Start(args[0]);
+                app.Start(path + "..\\..\\..\\..\\..\\" + args[0]);
             }
+            else
+            {
+                app.Start();
 
-            var path = Assembly.GetExecutingAssembly().Location;
-            app.Start(path + "..\\..\\..\\..\\..\\Inputs\\input2.txt");
+            }
         }
     }
 }

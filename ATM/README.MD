@@ -22,6 +22,8 @@ Line 5: Enter the option. B to view balance, W to withdraw.
 
 After Line 5, you can view balance or withdraw again, to exit this account simply press enter without typing anything. You should now be able to enter an account number again to access a another account.
 
+You are able to switch between using the console app and inputing a text file. To use a text file, place the file into the Inputs folder. Now navigate using the command line to bin/debug/ and run the command `dotnet run ATM.exe Inputs/[your file name].txt`.
+
 Example:
 
 ```
