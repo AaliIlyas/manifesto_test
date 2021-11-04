@@ -17,7 +17,6 @@ namespace ATM_PROJ
             else
             {
                 app.Start();
-
             }
         }
     }
